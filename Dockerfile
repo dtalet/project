@@ -1,6 +1,6 @@
 FROM tomcat:8.5.15-jre8
 
-ADD ./sm-shop/target/ROOT.war /usr/local/tomcat/webapps/
+ADD ./sm-shop/target/ROOT.war /usr/local/tomcat/webapps/shop.war
 
 ENV JAVA_OPTS="-Xmx1024m"
 
