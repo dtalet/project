@@ -174,18 +174,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-			<plugin>
-        		<groupId>net.sf.debian-maven</groupId>
-        		<artifactId>debian-maven-plugin</artifactId>
-        		<version>1.0.6</version>
-        		<configuration>
-				
-					<packageName>my-package</packageName>
-					<packageVersion>1.0.0</packageVersion>
-				
-        		</configuration>
-      		</plugin>
+			</plugin>			
 		</plugins>
 		<finalName>ROOT</finalName>
 	</build>
